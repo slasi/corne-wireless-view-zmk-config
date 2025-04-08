@@ -34,9 +34,9 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         display-name = "SymNum";
                         bindings = <
-   &trans     &kp EXCL    &kp AT       &kp HASH     &mt LGUI DLLR  &mt LMETA PRCNT &mt RMETA CARET &mt RGUI AMPS &kp STAR     &kp LPAR     &kp RPAR    &trans
-   &trans     &mt LGUI N1 &mt LCTRL N2 &mt LSHFT N3 &mt LALT N4    &mt LCTRL N5    &mt RCTRL N6    &mt RALT N7   &mt RSHFT N8 &mt RCTRL N9 &mt RGUI N0 &trans
-   &trans     &kp BSLH    &kp GRAVE    &kp LBRC     &mt LSHFT LBKT &kp MINUS       &kp EQUAL       &RSHFT RBKT   &kp RBRC     &kp DOT      &kp FSLH    &trans
+   &trans     &kp EXCL    &kp AT       &kp HASH     &mt LGUI DLLR  &mt LMETA PRCNT &mt RMETA CARET &mt RGUI AMPS  &kp STAR     &kp LPAR     &kp RPAR    &trans
+   &trans     &mt LGUI N1 &mt LCTRL N2 &mt LSHFT N3 &mt LALT N4    &mt LCTRL N5    &mt RCTRL N6    &mt RALT N7    &mt RSHFT N8 &mt RCTRL N9 &mt RGUI N0 &trans
+   &trans     &kp BSLH    &kp GRAVE    &kp LBRC     &mt LSHFT LBKT &kp MINUS       &kp EQUAL       &mt RSHFT RBKT &kp RBRC     &kp DOT      &kp FSLH    &trans
                           	           &trans       &trans         &trans          &trans          &trans        &trans
                         >;
                 };
