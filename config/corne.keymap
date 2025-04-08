@@ -20,34 +20,34 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         display-name = "Base";
                         bindings = <
-   &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
-   &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                  &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
+   &kp F19   &kp Q      &kp W       &kp E       &mt LGUI R   &mt LMETA T &mt RMETA Y &mt RGUI U  &kp I       &kp O       &kp P         &kp LG(LC(Q))
+   &lt 3 ESC &mt LGUI A &mt LCTRL S &mt LSHFT D &mt LALT F   &mt LCTRL G &mt RCTRL H &mt RALT J  &mt RSHFT K &mt RCTRL L &mt RGUI SEMI &lt 3 SQT
+   &kp CAPS  &kp Z      &kp X       &kp C       &mt LSHFT V  &kp B       &kp N       &mt RSHFT M &kp COMMA   &kp DOT     &kp FSLH      &kp F20
+                                    &lt 3 ESC   &lt 1 RETURN &lt 2 TAB   &lt 2 BSPC  &lt 1 SPACE &lt 3 SQT
                         >;
                 };
-                lower_layer {
+                symnum_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
 // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
-                        display-name = "Lower";
+                        display-name = "SymNum";
                         bindings = <
-   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-                          	        &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+   &trans     &kp EXCL    &kp AT       &kp HASH     &mt LGUI DLLR  &mt LMETA PRCNT &mt RMETA CARET &mt RGUI AMPS &kp STAR     &kp LPAR     &kp RPAR    &trans
+   &trans     &mt LGUI N1 &mt LCTRL N2 &mt LSHFT N3 &mt LALT N4    &mt LCTRL N5    &mt RCTRL N6    &mt RALT N7   &mt RSHFT N8 &mt RCTRL N9 &mt RGUI N0 &trans
+   &trans     &kp BSLH    &kp GRAVE    &kp LBRC     &mt LSHFT LBKT &kp MINUS       &kp EQUAL       &RSHFT RBKT   &kp RBRC     &kp DOT      &kp FSLH    &trans
+                          	           &trans       &trans         &trans          &trans          &trans        &trans
                         >;
                 };
 
-                raise_layer {
+                navmedia_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
 // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
-                        display-name = "Raise";
+                        display-name = "NavMedia";
                         bindings = <
    &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
    &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
@@ -56,15 +56,25 @@
                         >;
                 };
 
+                fn_layer {
+// -----------------------------------------------------------------------------------------
+// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
+// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        display-name = "NavMedia";
+                        bindings = <
+   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
+   &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
+   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
+                    	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+                        >;
+                };
                 extra_1 {
                         status = "reserved";
                 };
 
                 extra_2 {
-                        status = "reserved";
-                };
-
-                extra_3 {
                         status = "reserved";
                 };
         };
