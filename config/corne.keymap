@@ -25,10 +25,10 @@
         symnum_layer {
             display-name = "SymNum";
             bindings = <
-&none    &kp EXCL     &kp AT        &kp HASH      &mt LGUI DLLR   &mt LMETA PRCNT    &mt RMETA CARET  &mt RGUI AMPS   &kp STAR      &kp LPAR      &kp RPAR     &none
-&none    &mt LGUI N1  &mt LCTRL N2  &mt LSHFT N3  &mt LALT N4     &mt LCTRL N5       &mt RCTRL N6     &mt RALT N7     &mt RSHFT N8  &mt RCTRL N9  &mt RGUI N0  &kp DELETE
-&kp F21  &kp BSLH     &kp GRAVE     &kp LBRC      &mt LSHFT LBKT  &kp MINUS          &kp EQUAL        &mt RSHFT RBKT  &kp RBRC      &kp DOT       &kp FSLH     &kp F22
-                                    &trans        &trans          &trans             &trans           &trans          &trans
+&kp LC(RIGHT_ARROW)  &kp EXCL     &kp AT        &kp HASH      &mt LGUI DLLR   &mt LMETA PRCNT    &mt RMETA CARET  &mt RGUI AMPS   &kp STAR      &kp LPAR      &kp RPAR     &none
+&kp LC(LEFT_ARROW)   &mt LGUI N1  &mt LCTRL N2  &mt LSHFT N3  &mt LALT N4     &mt LCTRL N5       &mt RCTRL N6     &mt RALT N7     &mt RSHFT N8  &mt RCTRL N9  &mt RGUI N0  &kp DELETE
+&kp F21              &kp BSLH     &kp GRAVE     &kp LBRC      &mt LSHFT LBKT  &kp MINUS          &kp EQUAL        &mt RSHFT RBKT  &kp RBRC      &kp DOT       &kp FSLH     &kp F22
+                                                &trans        &trans          &trans             &trans           &trans          &trans
             >;
         };
 
