@@ -44,8 +44,8 @@
             >;
         };
 
-        navmedia_layer {
-            display-name = "NavMedia";
+        navtext_layer {
+            display-name = "NavText";
             bindings = <
 &none    &kp LC(A)          &kp LA(B)                 &kp LA(F)        &kp LC(E)            &none     &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)    &kp LA(UP_ARROW)  &kp LA(RIGHT_ARROW)  &none           &none
 &none    &mt LALT LG(LEFT)  &mt LCTRL LG(DOWN_ARROW)  &mt LGUI LG(UP)  &mt LSHFT LG(RIGHT)  &none     &kp LEFT_ARROW      &mt RSHFT DOWN_ARROW  &mt RGUI UP       &mt RCTRL RIGHT      &mt LALT RC(P)  &kp RC(N)
