@@ -27,40 +27,40 @@
         default_layer {
             display-name = "base";
             bindings = <
-&caps_word  &kp Q       &kp W        &kp E        &mt LGUI R    &mt LS(LA(LC(LEFT_GUI))) T    &mt LS(LA(LC(RIGHT_GUI))) Y  &mt RGUI U   &kp I        &kp O        &kp P          &kp LG(LC(Q))
-&lt 3 ESC   &mt LGUI A  &mt LCTRL S  &mt LSHFT D  &mt LALT F    &mt LCTRL G                   &mt RCTRL H                  &mt RALT J   &mt RSHFT K  &mt RCTRL L  &mt RGUI SEMI  &lt 3 SQT
-&kp F19     &kp Z       &kp X        &kp C        &mt LSHFT V   &kp B                         &kp N                        &mt RSHFT M  &kp COMMA    &kp DOT      &kp FSLH       &kp F20
-                                     &lt 3 ESC    &lt 1 RETURN  &lt 2 TAB                     &lt 2 BSPC                   &lt 1 SPACE  &lt 3 SQT
+&caps_word  &mt LCTRL Q  &mt LGUI W   &mt LSHFT E  &mt LALT R    &kp T                      &kp Y                    &mt RGUI U   &kp I       &kp O        &kp P          &kp LG(LC(Q))
+&lt 3 ESC   &mt LALT A   &mt LCTRL S  &mt LGUI D   &mt LSHFT F   &mt LA(LC(LG(LSHFT))) G    &mt RA(RC(RG(RSHFT))) H  &mt RSHFT J  &mt RGUI K  &mt RCTRL L  &mt RALT SEMI  &lt 3 SQT
+&kp F19     &kp Z        &kp X        &kp C        &kp V         &kp B                      &kp N                    &kp M        &kp COMMA   &kp DOT      &kp FSLH       &kp F20
+                                      &lt 3 ESC    &lt 1 RETURN  &lt 2 TAB                  &lt 2 BSPC               &lt 1 SPACE  &lt 3 SQT
             >;
         };
 
         symnum_layer {
             display-name = "SymNum";
             bindings = <
-&kp LC(RIGHT_ARROW)  &kp EXCL     &kp AT        &kp HASH      &mt LGUI DLLR   &mt LMETA PRCNT    &mt RMETA CARET  &mt RGUI AMPS   &kp STAR      &kp LPAR      &kp RPAR     &none
-&kp LC(LEFT_ARROW)   &mt LGUI N1  &mt LCTRL N2  &mt LSHFT N3  &mt LALT N4     &mt LCTRL N5       &mt RCTRL N6     &mt RALT N7     &mt RSHFT N8  &mt RCTRL N9  &mt RGUI N0  &kp DELETE
-&kp F21              &kp BSLH     &kp GRAVE     &kp LBRC      &mt LSHFT LBKT  &kp MINUS          &kp EQUAL        &mt RSHFT RBKT  &kp RBRC      &kp DOT       &kp FSLH     &kp F22
-                                                &trans        &trans          &trans             &trans           &trans          &trans
+&none    &mt LCTRL EXCL  &mt LGUI AT   &mt LSHFT HASH  &mt LALT DLLR  &kp PRCNT    &kp CARET  &mt RALT AMPS   &mt RSHFT STAR  &mt RGUI LPAR  &mt RCTRL RPAR  &none
+&none    &mt LALT N1     &mt LCTRL N2  &mt LGUI N3     &mt LSHFT N4   &kp N5       &kp N6     &mt RSHFT N7    &mt RGUI N8     &mt RCTRL N9   &mt RALT N0     &kp DELETE
+&kp F21  &kp BSLH        &kp GRAVE     &kp LBRC        &kp LBKT       &kp MINUS    &kp EQUAL  &mt RSHFT RBKT  &kp RBRC        &kp DOT        &kp FSLH        &kp F22
+                                       &trans          &trans         &trans       &trans     &trans          &trans
             >;
         };
 
         navmedia_layer {
             display-name = "NavMedia";
             bindings = <
-&none    &none                    &none                    &kp C_BRIGHTNESS_DEC        &kp C_BRIGHTNESS_INC  &kp C_MUTE          &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)  &kp LA(UP_ARROW)  &kp LA(RIGHT_ARROW)  &kp LG(UP_ARROW)    &none
-&none    &mt LEFT_GUI C_PREVIOUS  &mt LCTRL C_VOLUME_DOWN  &mt LEFT_SHIFT C_VOLUME_UP  &mt LEFT_ALT C_NEXT   &kp C_PLAY_PAUSE    &kp LEFT_ARROW      &kp DOWN_ARROW      &kp UP_ARROW      &kp RIGHT_ARROW      &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)
-&kp F23  &none                    &none                    &none                       &none                 &none               &kp HOME            &kp PAGE_DOWN       &kp PAGE_UP       &kp END              &kp LG(DOWN_ARROW)  &kp F24
-                                                           &trans                      &trans                &trans              &trans              &trans              &trans
+&none    &kp LC(A)          &kp LA(B)                 &kp LA(F)        &kp LC(E)            &none     &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)    &kp LA(UP_ARROW)  &kp LA(RIGHT_ARROW)  &none           &none
+&none    &mt LALT LG(LEFT)  &mt LCTRL LG(DOWN_ARROW)  &mt LGUI LG(UP)  &mt LSHFT LG(RIGHT)  &none     &kp LEFT_ARROW      &mt RSHFT DOWN_ARROW  &mt RGUI UP       &mt RCTRL RIGHT      &mt LALT RC(P)  &kp RC(N)
+&kp F23  &kp LC(U)          &kp LC(B)                 &kp LC(F)        &kp LC(D)            &none     &kp HOME            &kp PAGE_DOWN         &kp PAGE_UP       &kp END              &none           &kp F24
+                                                      &trans           &trans               &trans    &trans              &trans                &trans
             >;
         };
 
         fnsysbt_layer {
             display-name = "FnSysBT";
             bindings = <
-&kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP  &kp LC(UP_ARROW)  &none            &none           &none          &kp K_PREV            &kp K_PLAY_PAUSE       &kp K_NEXT            &kp K_MUTE         &kp C_VOLUME_DOWN
-&kp F12          &mt LEFT_GUI F1       &mt LCTRL F2  &mt LSHIFT F3     &mt LEFT_ALT F4  &kp F5          &kp F6         &mt RIGHT_ALT F7      &mt RSHFT F8           &mt RIGHT_CONTROL F9  &mt RIGHT_GUI F10  &kp F11
-&bt BT_CLR       &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3     &bt BT_SEL 4    &kp LG(TILDE)  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &none                 &none              &none
-                                                     &trans            &trans           &trans          &trans         &trans                &trans
+&none       &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP  &kp LC(LEFT)  &kp LC(RIGHT)  &kp LC(UP)      &kp K_PREV     &kp K_PP              &kp K_NEXT             &kp K_MUTE            &kp C_VOL_DN  &kp C_VOL_UP
+&kp F12     &mt LALT F1           &mt LCTRL F2  &mt LGUI F3   &mt LSHFT F4   &kp F5          &kp F6         &mt RSHFT F7          &mt RGUI F8            &mt RIGHT_CONTROL F9  &mt RALT F10  &kp F11
+&bt BT_CLR  &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4    &kp LG(TILDE)  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &none                 &none         &none
+                                                &trans        &trans         &trans          &trans         &trans                &trans
             >;
         };
     };
