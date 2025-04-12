@@ -47,8 +47,8 @@
         navtext_layer {
             display-name = "NavText";
             bindings = <
-&none    &kp LC(A)          &kp LA(B)                 &kp LA(F)        &kp LC(E)            &none     &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)    &kp LA(UP_ARROW)  &kp LA(RIGHT_ARROW)  &none           &none
-&none    &mt LALT LG(LEFT)  &mt LCTRL LG(DOWN_ARROW)  &mt LGUI LG(UP)  &mt LSHFT LG(RIGHT)  &none     &kp LEFT_ARROW      &mt RSHFT DOWN_ARROW  &mt RGUI UP       &mt RCTRL RIGHT      &mt LALT RC(P)  &kp RC(N)
+&none    &kp LC(A)          &kp LA(LC(B))             &kp LA(F)        &kp LC(E)            &none     &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)    &kp LA(UP_ARROW)  &kp LA(RIGHT_ARROW)  &none           &none
+&none    &mt LALT LG(LEFT)  &mt LCTRL LG(DOWN_ARROW)  &mt LGUI LG(UP)  &mt LSHFT LG(RIGHT)  &none     &kp LEFT_ARROW      &mt RSHFT DOWN_ARROW  &mt RGUI UP       &mt RCTRL RIGHT      &mt LALT RC(L)  &none
 &kp F23  &kp LC(U)          &kp LC(B)                 &kp LC(F)        &kp LC(D)            &none     &kp HOME            &kp PAGE_DOWN         &kp PAGE_UP       &kp END              &none           &kp F24
                                                       &trans           &trans               &trans    &trans              &trans                &trans
             >;
@@ -57,10 +57,10 @@
         fnsysbt_layer {
             display-name = "FnSysBT";
             bindings = <
-&kp LC(DOWN)  &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP  &kp LC(LEFT)  &kp LC(RIGHT)  &kp LC(UP)      &kp K_PREV     &kp K_PP              &kp K_NEXT             &kp K_MUTE            &kp C_VOL_DN  &kp C_VOL_UP
-&kp F12       &mt LALT F1           &mt LCTRL F2  &mt LGUI F3   &mt LSHFT F4   &kp F5          &kp F6         &mt RSHFT F7          &mt RGUI F8            &mt RIGHT_CONTROL F9  &mt RALT F10  &kp F11
-&bt BT_CLR    &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4    &kp LG(TILDE)  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &none                 &none         &none
-                                                  &trans        &trans         &trans          &trans         &trans                &trans
+&kp LC(DOWN)  &kp C_BRIGHTNESS_DEC  &kp C_BRI_UP  &kp LC(LEFT)  &kp LC(RIGHT)  &kp LC(UP)      &kp K_PREV  &kp K_PP              &kp K_NEXT             &kp K_MUTE            &kp C_VOL_DN  &kp C_VOL_UP
+&kp F12       &mt LALT F1           &mt LCTRL F2  &mt LGUI F3   &mt LSHFT F4   &kp F5          &kp F6      &mt RSHFT F7          &mt RGUI F8            &mt RIGHT_CONTROL F9  &mt RALT F10  &kp F11
+&bt BT_CLR    &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4    &none       &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LG(TILDE)         &none         &none
+                                                  &trans        &trans         &trans          &trans      &trans                &trans
             >;
         };
     };
