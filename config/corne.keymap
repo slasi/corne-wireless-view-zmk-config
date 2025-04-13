@@ -37,10 +37,10 @@
         symnum_layer {
             display-name = "SymNum";
             bindings = <
-&none    &mt LCTRL EXCL  &mt LGUI AT   &mt LSHFT HASH  &mt LALT DLLR  &kp PRCNT    &kp CARET  &mt RALT AMPS   &mt RSHFT STAR  &mt RGUI LPAR  &mt RCTRL RPAR  &none
-&none    &mt LALT N1     &mt LCTRL N2  &mt LGUI N3     &mt LSHFT N4   &kp N5       &kp N6     &mt RSHFT N7    &mt RGUI N8     &mt RCTRL N9   &mt RALT N0     &kp DELETE
-&kp F21  &kp BSLH        &kp GRAVE     &kp LBRC        &kp LBKT       &kp MINUS    &kp EQUAL  &mt RSHFT RBKT  &kp RBRC        &kp DOT        &kp FSLH        &kp F22
-                                       &trans          &trans         &trans       &trans     &trans          &trans
+&none    &kp EXCL     &kp AT        &kp HASH     &kp DOLLAR    &kp PRCNT    &kp CARET  &kp AMPS      &kp STAR     &kp LPAR      &kp RPAR     &none
+&none    &mt LALT N1  &mt LCTRL N2  &mt LGUI N3  &mt LSHFT N4  &kp N5       &kp N6     &mt RSHFT N7  &mt RGUI N8  &mt RCTRL N9  &mt RALT N0  &kp DELETE
+&kp F21  &kp BSLH     &kp GRAVE     &kp LBRC     &kp LBKT      &kp MINUS    &kp EQUAL  &kp RBKT      &kp RBRC     &kp DOT       &kp FSLH     &kp F22
+                                    &trans       &trans        &trans       &trans     &trans        &trans
             >;
         };
 
