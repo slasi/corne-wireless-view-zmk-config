@@ -47,10 +47,10 @@
         navtext_layer {
             display-name = "NavText";
             bindings = <
-&none    &kp LC(A)      &kp LA(LC(B))        &kp LA(LC(F))   &kp LC(E)      &kp LC(P)    &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)    &kp LA(UP_ARROW)  &kp LA(RIGHT_ARROW)  &none           &none
-&none    &mt LALT HOME  &mt LCTRL LG(PG_UP)  &mt LGUI PG_DN  &mt LSHFT END  &kp LC(N)    &kp LEFT_ARROW      &mt RSHFT DOWN_ARROW  &mt RGUI UP       &mt RCTRL RIGHT      &mt LALT RC(L)  &none
-&kp F23  &kp LC(U)      &kp LC(B)            &kp LC(F)       &kp LC(D)      &none        &kp RG(LEFT)        &kp RG(DOWN)          &kp RG(UP)        &kp RG(RIGHT)        &none           &kp F24
-                                             &trans          &trans         &trans       &trans              &trans                &trans
+&none    &kp LC(A)      &kp LA(LC(B))    &kp LA(LC(F))   &kp LC(E)      &kp LC(P)    &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)    &kp LA(UP_ARROW)  &kp LA(RIGHT_ARROW)  &none           &none
+&none    &mt LALT HOME  &mt LCTRL PG_UP  &mt LGUI PG_DN  &mt LSHFT END  &kp LC(N)    &kp LEFT_ARROW      &mt RSHFT DOWN_ARROW  &mt RGUI UP       &mt RCTRL RIGHT      &mt LALT RC(L)  &none
+&kp F23  &kp LC(U)      &kp LC(B)        &kp LC(F)       &kp LC(D)      &none        &kp RG(LEFT)        &kp RG(DOWN)          &kp RG(UP)        &kp RG(RIGHT)        &none           &kp F24
+                                         &trans          &trans         &trans       &trans              &trans                &trans
             >;
         };
 
