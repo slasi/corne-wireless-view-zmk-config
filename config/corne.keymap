@@ -39,7 +39,7 @@
             bindings = <
 &none    &kp EXCL     &kp AT        &kp HASH     &kp DOLLAR    &kp PRCNT    &kp CARET  &kp AMPS      &kp STAR     &kp LPAR      &kp RPAR     &none
 &none    &mt LALT N1  &mt LCTRL N2  &mt LGUI N3  &mt LSHFT N4  &kp N5       &kp N6     &mt RSHFT N7  &mt RGUI N8  &mt RCTRL N9  &mt RALT N0  &kp DELETE
-&kp F21  &kp BSLH     &kp GRAVE     &kp LBRC     &kp LBKT      &kp MINUS    &kp EQUAL  &kp RBKT      &kp RBRC     &kp DOT       &kp FSLH     &kp F22
+&kp F21  &kp LBKT     &kp RBKT      &kp LBRC     &kp RBRC      &kp GRAVE    &kp BSLH   &kp MINUS     &kp EQUAL    &kp DOT       &kp FSLH     &kp F22
                                     &trans       &trans        &trans       &trans     &trans        &trans
             >;
         };
@@ -47,10 +47,10 @@
         navtext_layer {
             display-name = "NavText";
             bindings = <
-&none    &kp LC(A)      &kp LA(LC(B))    &kp LA(LC(F))   &kp LC(E)      &kp LC(P)    &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)    &kp LA(UP_ARROW)  &kp LA(RIGHT_ARROW)  &none           &none
-&none    &mt LALT HOME  &mt LCTRL PG_UP  &mt LGUI PG_DN  &mt LSHFT END  &kp LC(N)    &kp LEFT_ARROW      &mt RSHFT DOWN_ARROW  &mt RGUI UP       &mt RCTRL RIGHT      &mt LALT RC(L)  &none
-&kp F23  &kp LC(U)      &kp LC(B)        &kp LC(F)       &kp LC(D)      &none        &kp RG(LEFT)        &kp RG(DOWN)          &kp RG(UP)        &kp RG(RIGHT)        &none           &kp F24
-                                         &trans          &trans         &trans       &trans              &trans                &trans
+&none    &kp LC(A)      &kp LA(LC(B))  &kp LA(LC(F))   &kp LC(E)        &kp LC(P)    &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)    &kp LA(UP_ARROW)  &kp LA(RIGHT_ARROW)  &none           &none
+&none    &mt LALT HOME  &mt LCTRL END  &mt LGUI PG_UP  &mt LSHFT PG_DN  &kp LC(N)    &kp LEFT_ARROW      &mt RSHFT DOWN_ARROW  &mt RGUI UP       &mt RCTRL RIGHT      &mt LALT RC(L)  &none
+&kp F23  &kp LC(U)      &kp LC(B)      &kp LC(F)       &kp LC(D)        &none        &kp RG(LEFT)        &kp RG(DOWN)          &kp RG(UP)        &kp RG(RIGHT)        &none           &kp F24
+                                       &trans          &trans           &trans       &trans              &trans                &trans
             >;
         };
 
