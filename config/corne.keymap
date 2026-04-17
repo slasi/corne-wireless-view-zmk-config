@@ -27,10 +27,10 @@
         default_layer {
             display-name = "base";
             bindings = <
-&caps_word  &kp Q        &kp W        &kp E        &kp R           &kp T                      &kp Y                    &kp U        &kp I            &kp O         &kp P           &kp LG(LC(Q))
-&lt 3 ESC   &mt LALT A   &mt LCTRL S  &mt LGUI D   &mt LSHFT F     &mt LA(LC(LG(LSHFT))) G    &mt RA(RC(RG(RSHFT))) H  &mt RSHFT J  &mt RGUI K       &mt RCTRL L   &mt RALT SEMI   &lt 3 SQT
-&kp F19     &mt LCTRL Z  &mt LGUI X   &mt LSHFT C  &mt LEFT_ALT V  &kp B                      &kp N                    &mt RALT M   &mt RSHFT COMMA  &mt RGUI DOT  &mt RCTRL FSLH  &kp F20
-                                      &lt 3 ESC    &lt 1 RETURN    &lt 2 TAB                  &lt 2 BSPC               &lt 1 SPACE  &lt 3 SQT
+&caps_word          &kp Q        &kp W        &kp E        &kp R           &kp T                      &kp Y                    &kp U        &kp I            &kp O         &kp P           &kp LG(LC(Q))
+&lt 3 LEFT_BRACKET  &mt LALT A   &mt LCTRL S  &mt LGUI D   &mt LSHFT F     &mt LA(LC(LG(LSHFT))) G    &mt RA(RC(RG(RSHFT))) H  &mt RSHFT J  &mt RGUI K       &mt RCTRL L   &mt RALT SEMI   &lt 3 RIGHT_BRACKET
+&kp F19             &mt LCTRL Z  &mt LGUI X   &mt LSHFT C  &mt LEFT_ALT V  &kp B                      &kp N                    &mt RALT M   &mt RSHFT COMMA  &mt RGUI DOT  &mt RCTRL FSLH  &kp F20
+                                              &lt 3 ESC    &lt 1 RETURN    &lt 2 TAB                  &lt 2 BSPC               &lt 1 SPACE  &lt 3 SQT
             >;
         };
 
